@@ -26,7 +26,7 @@ def analyze_query(user_query):
         trending = [coin for coin, data in crypto_db.items() if data["price_trend"] == "rising"]
         return f"📈 These coins are trending up: {', '.join(trending)}"
 
-    elif "sustainable" in user_query or "eco" in user_query:
+    elif "sustainable" in user_query or "eco" in user_query or "friendly" in user_query:
         sustainable = [coin for coin, data in crypto_db.items()
                        if data["energy_use"] == "low" and data["sustainability_score"] > 0.7]
         if sustainable:
@@ -64,7 +64,7 @@ def analyze_query(user_query):
 # Sample chat simulation
 while True:
     user_input = input("You: ")
-    if user_input.lower() in ["exit", "quit"]:
+    if user_input.lower() in ["exit", "quit", "q"]:
         print("Bot: Goodbye! 👋")
         break
     response = analyze_query(user_input)
