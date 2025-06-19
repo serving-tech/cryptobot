@@ -55,6 +55,4 @@ Bot: Goodbye! 👋
 
 ![Crypto Query Bot Screenshot](screenshot.png)
 
-## 📄 License
 
-This project is licensed under the MIT License.
