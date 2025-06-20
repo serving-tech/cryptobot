@@ -1,3 +1,13 @@
+
+## 👥 Group Members
+
+- [Gathigi Moses Muiruri] – [gathimoses@gmail.com]
+- [Odongo Isaiah] – [odongoreagan19@gmail.com]
+- [Keren Hapuch Ntinyari] – [kerenhapuch68@gmail.com]
+- [Jebichi Joyce] – [jebichiijoyce@gmail.com]
+- [Palpable Smart] – [palpable237@gmail.com]
+
+
 # 🪙 Crypto Query Bot
 
 This is a simple Python-based chatbot that provides insights into cryptocurrency trends, sustainability, and investment recommendations based on a small in-memory database.
